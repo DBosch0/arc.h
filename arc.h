@@ -51,7 +51,7 @@
  *
  * STRUCT SIZES
  *   Arc        32 bytes on 64-bit, 16 bytes on 32-bit  (max_align_t-aligned user data)
- *   ArcMutex   64 bytes on 64-bit, 40 bytes on 32-bit  (_Alignas(max_align_t) padded)
+ *   ArcMutex   64 bytes on 64-bit, 48 bytes on 32-bit  (_Alignas(max_align_t) padded)
  */
 
 #ifndef ARC_H_
